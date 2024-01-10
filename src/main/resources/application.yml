@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: OISS
+    password: OISS
+    url: jdbc:oracle:thin:@//localhost:1521/ORCL
+logging:
+  level:
+    org.springframework.jdbc: debug
